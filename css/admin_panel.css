@@ -1,0 +1,52 @@
+.container {
+    margin-top: 35px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.content-user {
+    display: flex;
+    justify-content: space-between;
+    color: #636363;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.columns-title {
+    color: #465370;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-buttons button{
+    margin: 0 2px;
+    padding: 2px 0;
+    width: 50px;
+    cursor: pointer;
+}
+
+.action-buttons .editar {
+    background-color: rgb(138, 207, 138);
+    color: rgb(21, 96, 21);
+    border: none;
+    border-top-right-radius: 8px;
+}
+
+.action-buttons .editar:hover {
+    background-color: rgb(23, 157, 23);
+    color: rgb(206, 218, 206);
+}
+
+.action-buttons .excluir {
+    background-color: rgb(235, 172, 172);
+    color: rgb(106, 22, 22);
+    border: none;
+    border-bottom-left-radius: 8px;
+}
+
+.action-buttons .excluir:hover {
+    background-color: rgb(247, 20, 20);
+    color: rgb(212, 207, 207);
+}
+
+
